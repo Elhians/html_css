@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 10vh;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 25px;
+    border-bottom:1px solid #C3EEFB ;
+}
+.navbar a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    font-size: large;
+    text-shadow: 2px 2px 6px white;
+}
+.navbar__logo{
+    
+    font-size: large;
+    font-family: cursive;
+    color: #C3EEFB;
+    padding: 2px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 100px;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #C3EEFB ;
+}
+.navbar__link--white{
+    color: white;
+}
+.navbar img{
+    position: relative;
+    top: 6px;
+    right: 4px;
+    width: 24px;
+    height: auto;
+}
+.landingpage{
+    margin: 20px 0 0 0;
+    width: 100%;
+    height:89vh;
+    background-image: url("images/background2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landingpage__text{
+    position: relative;
+    top: 15%;
+    color: #C3EEFB;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 3px 2px darkblue;
+}
+.landingpage__text .dans{
+    font-size: 1em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.apropos{
+    margin-top: 5%;
+    height: 360px;
+    
+}
+article{
+    height: 380px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+article p{
+    margin-left: 15%;
+    padding: 2% 10% 10% 15%;
+    border-radius: 2%;
+}
+.titre{
+    display: block;
+    text-align: center;
+    color: darkblue;
+    font-size: 4em;
+    text-shadow: 2px 3px 2px #C3EEFB;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.ligneverticale{
+    float: inline-start;
+    height: 360px;
+    border-left: 1px solid black;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+aside{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    float: left;
+    width: 15%;
+    height: 335px;
+    box-shadow: 1px 2px 15px black;
+}
+.apropos__img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10%;
+    margin-left: 18%;
+}
+.skills{
+    margin-top: 5%;
+}
+.skills__container{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+.skills__skill{
+    
+    border-radius: 2%;
+    text-align: center;
+    width: 200px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.skills__skill img{
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.skills__skill--green{
+    border: 1px solid green;
+    box-shadow: 2px 3px 6px green;
+}
+.skills__skill--green h3{
+    color: green;
+}
+.skills__skill--green__text{
+    margin-top: 10px;
+    background-color: rgb(115, 245, 115);
+    padding: 10px;
+    border-radius: 2%;
+}
+.skills__skill--yellow{
+    border: 1px solid yellow;
+    box-shadow: 1px 1px 6px yellow;
+}
+.skills__skill--yellow h3{
+    color: yellow;
+}
+.skills__skill--yellow__text{
+    margin-top: 10px;
+    background-color: rgb(246, 246, 120);
+    padding: 10px;
+    border-radius: 2%;
+}
+.skills__skill--red{
+    border: 1px solid red;
+    box-shadow: 1px 1px 6px red;
+}
+.skills__skill--red h3{
+    color: red;
+}
+.skills__skill--red__text{
+    margin-top: 10px;
+    background-color: rgb(243, 86, 86);
+    padding: 10px;
+    border-radius: 2%;
+}
+.skills__skill--blue{
+    border: 1px solid blue;
+    box-shadow: 1px 1px 6px blue;
+}
+.skills__skill--blue h3{
+    color: blue;
+}
+.skills__skill--blue__text{
+    margin-top: 10px;
+    background-color: rgb(79, 222, 241);
+    padding: 10px;
+    border-radius: 2%;
+}
+.skills__skill--orange{
+    border: 1px solid orange;
+    box-shadow: 1px 1px 6px orange;
+}
+.skills__skill--orange h3{
+    color: orange;
+}
+.skills__skill--orange__text{
+    margin-top: 10px;
+    background-color: rgb(255, 200, 98);
+    padding: 10px;
+    border-radius: 2%;
+}
+.skills__skill--pink{
+    border: 1px solid pink;
+    box-shadow: 1px 1px 6px pink;
+}
+.skills__skill--pink h3{
+    color: pink;
+}
+.skills__skill--pink__text{
+    margin-top: 10px;
+    background-color: rgb(246, 214, 219);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.hobbies__container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.hobby__img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 4% 0 1% 0;
+}
+.piedpage{
+    background-color: darkblue;
+    padding: 30px;
+}
+.piedpage__titre{
+    color: #C3EEFB;
+    width: 6%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.piedpage ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.piedpage img{
+    width: 24px;
+    height: auto;
+}
